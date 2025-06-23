@@ -1,4 +1,6 @@
 test:
-	pytest
+	uv run pytest
+run:
+	uv run main.py
 
-.PHONY: test
+.PHONY: test run
